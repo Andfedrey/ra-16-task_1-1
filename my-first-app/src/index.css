@@ -15,12 +15,7 @@ h3 {
   margin: 0;
 }
 
-.btn-switch {
-  position: absolute;
-  left: 10px;
-  z-index: 12;
-  background-color: rgb(119, 68, 68);
-}
+
 
 .container {
   display: -webkit-box;
@@ -37,6 +32,14 @@ h3 {
   -ms-flex-align: center;
   align-items: center;
   background: #999;
+}
+
+.btn-switch {
+  position: absolute;
+  z-index: 12;
+  left: 45vw;
+  top: 5%;
+  background-color: rgb(119, 68, 68);
 }
 
 .window {

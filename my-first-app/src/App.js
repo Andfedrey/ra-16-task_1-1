@@ -5,7 +5,6 @@ import ShopItemFn from './Components/ShopItemFn';
 
 function App() {
   const [show, setShow] = useState(true);
-  console.log(show);
   const item = {
     brand: 'Tiger of Sweden',
     title: 'Leonard coat',
